@@ -2,10 +2,10 @@
     "mcpServers": {
         "sendkit": {
             "type": "stdio",
-            "command": "bun",
+            "command": "bunx",
             "args": [
-                "run",
-                "dev:local-mcp"
+                "-y",
+                "sendkit-mcp"
             ],
             "env": {
                 "TELEGRAM_BOT_TOKEN": "<bot-token>"
